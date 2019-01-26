@@ -13,6 +13,8 @@ class Song
     @@genres << genre
     @@artists << artist
 end
+
+  attr_reader = :name, :artist, :genre
   
   def self.count
     @@count
