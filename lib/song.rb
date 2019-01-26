@@ -32,7 +32,7 @@ end
       end
     end
     genre_count
-end
+  end
 
 def self.artist_count
     artist_count = {}
@@ -42,9 +42,6 @@ def self.artist_count
       else
         artist_count[genre] = 1
       end
-    end
     artist_count
-end
-    
-
+  end
 end
